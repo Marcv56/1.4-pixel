@@ -1,18 +1,14 @@
 * {
-  box-sizing: border-box ;
+  box-sizing: border-box;
 }
 
-img  {
-  width:100%;
-
+img {
+  width: 100%;
 }
 
 header{
-  padding-left: 13%;
-      padding-top: 22px;
-      border: groove;
-      letter-spacing: 4px;
-      font-family: 'Lato', sans-serif;
-      font-size: 10.5PX;
-      margin-bottom: 25;
-}
+  display:inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  padding-left: 10.5%;
+  }
