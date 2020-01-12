@@ -32,15 +32,18 @@ header {
 
 .nav-right {
   display: inline-block;
-  padding-left: 40%;
+  padding-left: 670px;
+  word-spacing: 12px;
 }
 
 .nav-right a {
   text-decoration: none;
 }
 
+
+
 /*************************************************** MAIN ********************/
-.container {
+container {
   padding-left: 17%;
   padding-right: 10%;
   padding-top: 2%;
@@ -80,13 +83,30 @@ div.blog-post p {
   font-size: 13px;
 }
 
+div.blog-post h3{
+  border-bottom: 1px solid grey;
+ background-color: white;
+ font-size: 11px;
+    padding-bottom: 55px;
+    padding-top: 30px;
+
+}
+
 div.blog-post h3 button{
   margin-left: 30%;
   background-color: white;
-    color: black;
+    color: #FFA500;
     border: 2px solid #FFA500;
-    border-width:thin;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: bold;
 }
+
+
+
+
 
 /*************************************************** ASIDE *******************/
 aside {
@@ -119,5 +139,4 @@ aside {
 .author background-imag {
   width 100%;
 }
-
 /*************************************************** FOOTER ******************/
