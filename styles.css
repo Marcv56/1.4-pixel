@@ -22,28 +22,35 @@ header {
 /* put dot to be more spefic (.nav-left a to target all {#a} changed all text sytle for that tag) */
 .nav-left {
   display: inline-block;
-  padding-left: 20%;
+  padding-left: 144.5px;
+    word-spacing: 17px;
+
 }
 
 .nav-left a {
   text-decoration: none;
   display: inline-block;
+  color: black;
 }
 
 .nav-right {
   display: inline-block;
-  padding-left: 670px;
+  padding-left: 83%;
   word-spacing: 12px;
+
 }
 
 .nav-right a {
   text-decoration: none;
+  color: black;
+
 }
 
 
 
+
 /*************************************************** MAIN ********************/
-container {
+.container {
   padding-left: 17%;
   padding-right: 10%;
   padding-top: 2%;
@@ -63,7 +70,7 @@ div.blog-post {
 }
 
 .blog-post h1 {
-  font-size: 20px;
+  font-size: 10px;
   font-family: 'Oswald', sans-serif;
   padding-top: 12px;
   padding-left: 40%;
@@ -104,6 +111,11 @@ div.blog-post h3 button{
     font-weight: bold;
 }
 
+ div.blog-post h4 nav{
+   display: inline;
+  padding-left: 45%;
+
+}
 
 
 
@@ -133,7 +145,8 @@ aside {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  margin-top: 50%;
+  margin-top: 58%;
+  margin-left: -38px;
 }
 
 .author background-imag {
