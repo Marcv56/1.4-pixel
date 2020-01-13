@@ -32,7 +32,7 @@ header {
 .nav-left a {
   text-decoration: none;
   display: inline-block;
-  color: black;
+  color: darkgray;
   font-size: 13.5px;
 }
 
@@ -45,7 +45,7 @@ header {
 
 .nav-right a {
   text-decoration: none;
-  color: black;
+  color: darkgray;
   font-size: 13.5px;
 }
 
@@ -55,6 +55,7 @@ header {
   padding-right: 10%;
   padding-top: 2%;
 }
+
 /*********************************** blog post ********************************/
 div.blog-post img {
   size: 50px;
@@ -79,12 +80,12 @@ div.blog-post {
 }
 
 .blog-post h1 {
-  font-size: 11px;
-      font-family: 'Oswald', sans-serif;
-      padding-top: 18px;
-      padding-left: 47%;
-      padding-bottom: 5px;
-      color: #FFA500;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 26px;
+  padding-left: 47%;
+  padding-bottom: 5px;
+  color: #FFA500;
 }
 
 .blog-post h2 {
@@ -93,13 +94,14 @@ div.blog-post {
   padding-left: 30.5%;
   margin-top: 7px;
   margin-bottom: 4%;
+  word-spacing: 6px;
 }
 
 div.blog-post p {
   font-size: 18px;
-    padding-left: 5%;
-    word-spacing: 5px;
-    margin-bottom: 3%;
+  padding-left: 5%;
+  word-spacing: 5px;
+  margin-bottom: 3%;
 }
 
 div.blog-post h3 {
@@ -123,20 +125,30 @@ div.blog-post h3 button {
   font-weight: bold;
 }
 
-div.blog-post h4{
+div.blog-post h4 {
   box-sizing: border-box;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-left: 5%;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    word-spacing: 6px;
+    color: darkgray;
 }
 
 div.blog-post h4 nav {
   display: inline;
-  padding-left: 45%;
+  padding-left: 63%;
+  word-spacing: 10px;
+  font-size: 18px;
+}
+.blog-right a{
+  color: darkgray;
 }
 
+
+
 /* blog post2 */
-
-
-
 /*************************************************** ASIDE *******************/
 aside {
   display: inline-block;
