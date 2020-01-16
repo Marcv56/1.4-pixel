@@ -286,10 +286,24 @@ div.popular-post {
   border-style: solid;
   margin-left: 33px;
   margin-bottom: 3%;
+  border: 1px solid grey;
+  background: white;
 }
 
-div.popular-post div h2{
+div.popular-post div div.post-image {
+  width: 52%;
+  margin-left: 51px;
+}
+
+div.popular-post div h2 {
   font-size: 15px;
+}
+
+div.popular-post div h3 {
+  font-size: 7px;
+  border-bottom: 1px solid grey;
+  margin-right: 6%;
+  margin-left: 4%;
 }
 
 /*************************************************** FOOTER ******************/
