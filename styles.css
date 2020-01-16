@@ -138,7 +138,7 @@ div.blog-post h4 {
 
 div.blog-post h4 nav {
   display: inline;
-  padding-left: 58%;
+  padding-left: 54%;
   word-spacing: 10px;
   font-size: 18px;
 }
@@ -224,7 +224,7 @@ div.blog-post2 h4 {
 
 div.blog-post2 h4 nav {
   display: inline;
-  padding-left: 58%;
+  padding-left: 54%;
   word-spacing: 10px;
   font-size: 18px;
 }
@@ -232,8 +232,6 @@ div.blog-post2 h4 nav {
 .blog-right a {
   color: darkgray;
 }
-
-
 
 /*************************************************** ASIDE *******************/
 aside {
@@ -243,6 +241,7 @@ aside {
   margin-left: 9%;
 }
 
+/* ************AUTHORS***************** */
 .author div {
   width: 200px;
   height: 200px;
@@ -268,12 +267,30 @@ aside {
   width 100%;
 }
 
- .author h1{
-   font-size: 16px;
-     padding-left: 64px;
- }
+.author h1 {
+  font-size: 16px;
+  padding-left: 64px;
+}
 
-   
+/***********POPULAR POST************/
+div.popular-post div header {
+  border-style: none;
+  padding-left: 22%;
+  padding-top: 26px;
+  font-size: 23px;
+}
+
+div.popular-post {
+  display: inline-block;
+  margin-top: 129%;
+  border-style: solid;
+  margin-left: 33px;
+  margin-bottom: 3%;
+}
+
+div.popular-post div h2{
+  font-size: 15px;
+}
 
 /*************************************************** FOOTER ******************/
 .footer {
