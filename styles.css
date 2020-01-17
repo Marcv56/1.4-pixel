@@ -306,6 +306,47 @@ div.popular-post div h3 {
   margin-left: 4%;
 }
 
+/* LATEST POST */
+
+ div.latest-post > div {
+   display: flex;
+ }
+
+body > div.container > aside > div.latest-post{
+  margin-top: 20%;
+    margin-left: 9%;
+    background: white;
+    font-family: 'Lato', sans-serif;
+}
+
+body > div.container > aside > div.latest-post > header{
+  border-style: none;
+text-align: center;
+font-family: 'Lato', sans-serif;
+}
+
+
+
+ div.latest-post div > div.new-image > img{
+   width: 108%;
+   padding-right: 31px;
+
+ }
+
+ body > div.container > aside > div.latest-post > div > div.text > h1{
+   padding-right: 147px;
+     font-size: 10px;
+     padding-top: 9px;
+     font-family: 'Lato', sans-serif;
+ }
+body > div.container > aside > div.latest-post > div > div.text > h2{
+  font-size: 8px;
+  font-family: 'Lato', sans-serif;
+  color: grey;
+}
+
+
+
 /*************************************************** FOOTER ******************/
 .footer {
   display: inline-flex;
