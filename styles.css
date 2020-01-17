@@ -345,6 +345,31 @@ body > div.container > aside > div.latest-post > div > div.text > h2{
   color: grey;
 }
 
+/* instagram Feed */
+ div.instagram > div{
+   padding-top: 23%;
+ }
+
+div.instagram > div > header{
+  text-align: center;
+  background: white;
+  border-style: none;
+}
+
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 /*************************************************** FOOTER ******************/
